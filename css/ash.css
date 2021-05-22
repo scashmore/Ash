@@ -16,96 +16,97 @@ body {
 }
 
 /* Font Classes */
-.font-reggae {
-    font-family: 'Reggae One', cursive;
-}
-.font-nanum {
-    font-family: 'Nanum GOthic', sans-serif;
-}
-.font-indie {
-    font-family: 'Indie Flower', cursive;
-}
-.font-koho {
-    font-family: "KoHo", sans-serif;
-}
-.font-raleway {
-    font-family: "Raleway", sans-serif;
-}
-.font-titillium{
-    font-family: "Titillium Web", sans-serif;
-}
-.font-teko {
-    font-family: "Teko", sans-serif;
-}
-.font-dancing {
-    font-family: 'Dancing Script', cursive;
-}
-.font-lobster {
-    font-family: 'Lobster', cursive;
-}
-.font-recursive {
-    font-family: 'Recursive', sans-serif;
-}
-.font-zilla {
-    font-family: 'Zilla Slab', serif;
-}
-.font-mate {
-    font-family: 'Mate SC', serif;
-}
 .font-caveat {
     font-family: 'Caveat', cursive;
-}
-.font-girassol {
-    font-family: 'Girassol', cursive;
 }
 .font-courgette {
     font-family: 'Courgette', cursive;
 }
-.font-prata{
-    font-family: 'Prata', serif;
-}
-.font-parisienne {
-    font-family: 'Parisienne', cursive;
-}
-.font-yellowtail {
-    font-family: 'Yellowtail', cursive;
-}
-.font-rokkit {
-    font-family: 'Rokkit', serif;
-}
 .font-bahianita {
     font-family: 'Bahianita', cursive;
 }
-.font-staatliches {
-    font-family: 'Staatliches', cursive;
-}
-.font-sanchez {
-    font-family: 'Sanchez', serif;
-}
-.font-josefin {
-    font-family: 'Josefin Slab', serif;
-}
-.font-merienda {
-    font-family: 'Merienda', cursive;
-}
-.font-texturina {
-    font-family: 'Texturina', serif;
-}
-.font-unna {
-    font-family: 'Unna', serif;
-}
-.font-philosopher {
-    font-family: 'Philosopher', sans-serif;
-}
-.font-ubuntu {
-    font-family: 'Ububtu Mono', monospace;
-}
-.font-karma {
-    font-family: 'Karma', serif;
+.font-dancing {
+    font-family: 'Dancing Script', cursive;
 }
 .font-el {
     font-family: 'El Messiri', sans-serif;
 }
+.font-girassol {
+    font-family: 'Girassol', cursive;
+}
+.font-indie {
+    font-family: 'Indie Flower', cursive;
+}
+.font-josefin {
+    font-family: 'Josefin Slab', serif;
+}
+.font-karma {
+    font-family: 'Karma', serif;
+}
+.font-koho {
+    font-family: "KoHo", sans-serif;
+}
+.font-lobster {
+    font-family: 'Lobster', cursive;
+}
+.font-mate {
+    font-family: 'Mate SC', serif;
+}
+.font-merienda {
+    font-family: 'Merienda', cursive;
+}
+.font-nanum {
+    font-family: 'Nanum GOthic', sans-serif;
+}
+.font-parisienne {
+    font-family: 'Parisienne', cursive;
+}
+.font-philosopher {
+    font-family: 'Philosopher', sans-serif;
+}
+.font-prata{
+    font-family: 'Prata', serif;
+}
+.font-raleway {
+    font-family: "Raleway", sans-serif;
+}
+.font-recursive {
+    font-family: 'Recursive', sans-serif;
+}
+.font-reggae {
+    font-family: 'Reggae One', cursive;
+}
+.font-rokkit {
+    font-family: 'Rokkit', serif;
+}
+.font-sanchez {
+    font-family: 'Sanchez', serif;
+}
+.font-staatliches {
+    font-family: 'Staatliches', cursive;
+}
+.font-texturina {
+    font-family: 'Texturina', serif;
+}
+.font-teko {
+    font-family: "Teko", sans-serif;
+}
+.font-titillium{
+    font-family: "Titillium Web", sans-serif;
+}
+.font-unna {
+    font-family: 'Unna', serif;
+}
+.font-ubuntu {
+    font-family: 'Ububtu Mono', monospace;
+}
+.font-yellowtail {
+    font-family: 'Yellowtail', cursive;
+}
+.font-zilla {
+    font-family: 'Zilla Slab', serif;
+}
+
 /* Heading */
 h1,
 h2,
@@ -126,16 +127,16 @@ p {
 /* Padding */
 
 /* Padding around */
-.p-1 {
+.m-1 {
     padding: 1rem;
 }
-.p-2 {
+.m-2 {
     padding: 2rem;
 }
-.p-3 {
+.m-3 {
     padding: 3rem;
 }
-.p-4 {
+.m-4 {
     padding: 4rem;
 }
 
@@ -221,4 +222,104 @@ p {
 }
 .px-4 {
     padding-bottom: 0 4rem;
+}
+
+/* Margin */
+
+/* margin around */
+.m-1 {
+    margin: 1rem;
+}
+.m-2 {
+    margin: 2rem;
+}
+.m-3 {
+    margin: 3rem;
+}
+.m-4 {
+    margin: 4rem;
+}
+
+/* margin Top */
+.mt-1 {
+    margin-top: 1rem;
+}
+.mt-2 {
+    margin-top: 2rem;
+}
+.mt-3 {
+    margin-top: 3rem;
+}
+.mt-4 {
+    margin-top: 4rem;
+}
+
+/* margin Bottom */
+.mb-1 {
+    margin-bottom: 1rem;
+}
+.mb-2 {
+    margin-bottom: 2rem;
+}
+.mb-3 {
+    margin-bottom: 3rem;
+}
+.mb-4 {
+    margin-bottom: 4rem;
+}
+
+/* margin Left */
+.ml-1 {
+    margin-left: 1rem;
+}
+.ml-2 {
+    margin-left: 2rem;
+}
+.ml-3 {
+    margin-left: 3rem;
+}
+.ml-4 {
+    margin-left: 4rem;
+}
+
+/* margin Right */
+.pr-1 {
+    margin-right: 1rem;
+}
+.pr-2 {
+    margin-right: 2rem;
+}
+.pr-3 {
+    margin-right: 3rem;
+}
+.pr-4 {
+    margin-right: 4rem;
+}
+
+/* margin y */
+.py-1 {
+    margin: 1rem 0;
+}
+.py-2 {
+    margin-bottom: 2rem 0;
+}
+.py-3 {
+    margin-bottom: 3rem 0;
+}
+.py-4 {
+    margin-bottom: 4rem 0;
+}
+
+/* margin x */
+.px-1 {
+    margin: 0 1rem;
+}
+.px-2 {
+    margin-bottom: 0 2rem;
+}
+.px-3 {
+    margin-bottom: 0 3rem;
+}
+.px-4 {
+    margin-bottom: 0 4rem;
 }
